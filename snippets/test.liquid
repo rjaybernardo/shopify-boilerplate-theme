@@ -1,0 +1,12 @@
+{%- for collection in collections -%}
+  {%- if collection.title == 'leather' -%}
+    <h1>{{ collection.title }}</h1>
+    <p>{{ collection.description }}</p>
+    {%- for product in collection.products -%}
+      <h3>{{ product.title }}</h3>
+      <p>{{ product.price | money }}</p>
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<h1>Hello World</h1>

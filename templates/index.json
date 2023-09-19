@@ -1,14 +1,4 @@
 {
-  "sections":{
-    "hero": {
-      "type": "hero"
-    },
-    "list-of-collections": {
-      "type": "list-of-collections"
-    }
-  },
-  "order":[
-    "hero",
-    "list-of-collections"
-  ]
+  "sections": {},
+  "order": []
 }
